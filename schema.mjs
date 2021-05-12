@@ -3,35 +3,37 @@ export default {
   output:'./output.json',
   total:'10',
   types:{
-    'firstName': 'maleFirstName',
-    'lastName': 'maleLastName',
-    'email':'emailDomain,test.com',
-    'fullName':'joinerSpace,firstName,lastName',
+    skips:['domain'],
+    firstName: 'maleFirstName',
+    lastName: 'maleLastName',
+    domain:'domain',
+    email:'joiner,firstName,.,lastName,@,domain',
+    fullName:'joinerSpace,firstName,lastName',
     father:{
       return:'single',
       types:{
-        'firstName':'maleFirstName',
-        'lastName':'maleLastName',
+        firstName:'maleFirstName',
+        lastName:'maleLastName',
       }
     },
     mother:{
       return:'single',
       types:{
-        'firstName':'femaleFirstName',
-        'lastName':'femaleLastName',
+        firstName:'femaleFirstName',
+        lastName:'femaleLastName',
       }
     },
-    'siblings':{
+    siblings:{
       skips:['domain'],
       total:'random',
       limit:3,
       // total:1,
       types:{
-        'firstName':'firstName',
-        'lastName':'lastName',
-        'domain':"domain",
-        'email':'joiner,firstName,.,lastName,@,domain',
-        'fullName':'joinerSpace,firstName,lastName',
+        firstName:'firstName',
+        lastName:'lastName',
+        domain:'domain',
+        email:'joiner,firstName,.,lastName,@,domain',
+        fullName:'joinerSpace,firstName,lastName',
       }
     },
     
