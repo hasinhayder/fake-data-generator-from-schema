@@ -44,20 +44,37 @@ function genereateData (schema, providers) {
   return generatedData
 }
 
+function getProvider (seed, providers) {
+  let provider
+
+  if (
+    providers[seed] == undefined &&
+    providers.processors.includes(seed) == false
+  ) {
+    provider = `faker.${seed}`
+  } else if (providers[seed] != undefined) {
+    provider = `${providers[seed]}`
+  } else if (providers.processors.includes(seed) != false) {
+    provider = seed
+  }
+
+  return provider
+}
+
 function callFunction (seed, providers, tempData) {
   if (seed.indexOf(',') !== -1) {
     let args = seed.split(',')
     let fn
-    const provider = args.shift().trim()
+    const provider = getProvider(args.shift().trim(), providers)
     args = args.map(i => `'${i.trim()}'`)
     if (providers.processors.indexOf(provider) !== -1) {
       fn = `${provider}(tempData,${args.join(',')})`
-    } else if ('emailDomain' == providers[provider]) {
-      fn = `faker.internet.email('','',${args.join(',')})`
     }
     return eval(fn)
+  } else {
+    const provider = getProvider(seed, providers)
+    return eval(provider)
   }
-  return eval(providers[seed])
 }
 
 function joiner (tempData, ...params) {
@@ -83,4 +100,16 @@ function prepend (tempData, ...params) {
 
 function append (tempData, ...params) {
   return tempData[params[1]] + params[0]
+}
+
+function randomNumber (min = 0, max = 100) {
+  let n = faker.datatype.number(100)
+  if (n < min) {
+    n += min
+  }
+  return n
+}
+
+function emailDomain(tempData, ...params){
+  return faker.internet.email('','',params[0])
 }
