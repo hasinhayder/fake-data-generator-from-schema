@@ -6,9 +6,10 @@ import { writeFileSync } from 'fs'
 const generatedData = genereateData(schema, providers)
 if (schema.output) {
   writeFileSync(schema.output, JSON.stringify(generatedData, null, 2))
-} else {
-  console.log(JSON.stringify(generatedData, null, 1))
+}else {
+  console.log(JSON.stringify(generatedData,null,2))
 }
+
 
 function genereateData (schema, providers) {
   let generatedData = []
@@ -113,3 +114,4 @@ function randomNumber (min = 0, max = 100) {
 function emailDomain(tempData, ...params){
   return faker.internet.email('','',params[0])
 }
+
