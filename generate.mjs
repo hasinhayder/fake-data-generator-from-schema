@@ -1,12 +1,12 @@
 import faker from 'faker'
 import providers from './providers.mjs'
 import schema from './schema.mjs'
-import {writeFileSync} from 'fs'
+import { writeFileSync } from 'fs'
 
 const generatedData = genereateData(schema, providers)
-if(schema.output){
-  writeFileSync(schema.output,JSON.stringify(generatedData, null, 2))
-}else{
+if (schema.output) {
+  writeFileSync(schema.output, JSON.stringify(generatedData, null, 2))
+} else {
   console.log(JSON.stringify(generatedData, null, 1))
 }
 
