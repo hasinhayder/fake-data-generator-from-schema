@@ -1,6 +1,6 @@
 export default {
   // total:'random',
-  output:'./data.json',
+  output:'./output.json',
   total:'10',
   types:{
     'firstName': 'maleFirstName',
