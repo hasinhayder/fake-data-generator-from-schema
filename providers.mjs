@@ -26,7 +26,26 @@ export default {
     bsBuzz: 'faker.company.bsBuzz()',
     suffixes: 'faker.company.suffixes()',
     //address
-    zipCode: 'faker.address.zipCode()'
+    zipCode: 'faker.address.zipCode()',
+    cityPrefix: 'faker.address.cityPrefix()',
+    citySuffix: 'faker.address.citySuffix()',
+    city: 'faker.address.city()',
+    cityName: 'faker.address.cityName()',
+    streetName: 'faker.address.streetName()',
+    streetSuffix: 'faker.address.streetSuffix()',
+    streetPrefix: 'faker.address.streetPrefix()',
+    secondaryAddress: 'faker.address.secondaryAddress()',
+    county: 'faker.address.county()',
+    country: 'faker.address.country()',
+    state: 'faker.address.state()',
+    stateAbbr: 'faker.address.stateAbbr()',
+    latitude: 'faker.address.latitude()',
+    longitude: 'faker.address.longitude()',
+    direction: 'faker.address.direction()',
+    cardinalDirection: 'faker.address.cardinalDirection()',
+    ordinalDirection: 'faker.address.ordinalDirection()',
+    nearbyGPSCoordinate: 'faker.address.nearbyGPSCoordinate()',
+    timeZone: 'faker.address.timeZone()',
   },
   processors: [
     'joiner',
@@ -41,6 +60,7 @@ export default {
   ],
   providersWithParams: {
     zipCodeByState: 'faker.address.zipCodeByState',
-    streetAddress: 'faker.address.streetAddress'
+    streetAddress: 'faker.address.streetAddress',
+    countryCode: 'faker.address.countryCode', //param default=alpha-2, accepts alpha-3
   }
 }
