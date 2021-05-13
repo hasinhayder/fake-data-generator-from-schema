@@ -69,7 +69,11 @@ export default {
     productMaterial:'faker.commerce.productMaterial()',
     product:'faker.commerce.product()',
     productDescription:'faker.commerce.productDescription()',
-    
+    //database
+    column:'faker.database.column()',
+    type:'faker.database.type()',
+    collation:'faker.database.collation()',
+    engine:'faker.database.engine()',
   },
   processors: [
     'joiner',
