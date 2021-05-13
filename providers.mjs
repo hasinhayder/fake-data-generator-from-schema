@@ -84,9 +84,24 @@ export default {
     boolean:'faker.datatype.boolean()',
     json:'faker.datatype.json()',
     array:'faker.datatype.array()',
-    //date
-    
-    between:'faker.date.between()',
+    //finance
+    account:'faker.finance.account()',
+    accountName:'faker.finance.accountName()',
+    routingNumber:'faker.finance.routingNumber()',
+    mask:'faker.finance.mask()',
+    amount:'faker.finance.amount()',
+    transactionType:'faker.finance.transactionType()',
+    currencyCode:'faker.finance.currencyCode()',
+    currencyName:'faker.finance.currencyName()',
+    currencySymbol:'faker.finance.currencySymbol()',
+    bitcoinAddress:'faker.finance.bitcoinAddress()',
+    litecoinAddress:'faker.finance.litecoinAddress()',
+    creditCardNumber:'faker.finance.creditCardNumber()',
+    creditCardCVV:'faker.finance.creditCardCVV()',
+    ethereumAddress:'faker.finance.ethereumAddress()',
+    iban:'faker.finance.iban()',
+    bic:'faker.finance.bic()',
+    transactionDescription:'faker.finance.transactionDescription()',
   },
   processors: [
     'joiner',
