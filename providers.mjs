@@ -61,6 +61,15 @@ export default {
     insect:'faker.animal.insect()',
     rabbit:'faker.animal.rabbit()',
     type:'faker.animal.type()',
+    //commerce
+    color:'faker.commerce.color()',
+    department:'faker.commerce.department()',
+    productName:'faker.commerce.productName()',
+    productAdjective:'faker.commerce.productAdjective()',
+    productMaterial:'faker.commerce.productMaterial()',
+    product:'faker.commerce.product()',
+    productDescription:'faker.commerce.productDescription()',
+    
   },
   processors: [
     'joiner',
@@ -77,5 +86,7 @@ export default {
     zipCodeByState: 'faker.address.zipCodeByState',
     streetAddress: 'faker.address.streetAddress',
     countryCode: 'faker.address.countryCode', //param default=alpha-2, accepts alpha-3
+    price:'faker.commerce.price', //min, max, dec, symbol
+
   }
 }
