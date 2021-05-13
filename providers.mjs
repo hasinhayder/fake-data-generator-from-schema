@@ -102,6 +102,12 @@ export default {
     iban:'faker.finance.iban()',
     bic:'faker.finance.bic()',
     transactionDescription:'faker.finance.transactionDescription()',
+    //git
+    branch:'faker.git.branch()',
+    commitEntry:'faker.git.commitEntry()',
+    commitMessage:'faker.git.commitMessage()',
+    commitSha:'faker.git.commitSha()',
+    shortSha:'faker.git.shortSha()',
   },
   processors: [
     'joiner',
