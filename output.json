@@ -1,289 +1,72 @@
 [
   {
-    "firstName": "Felix",
-    "lastName": "Wunsch",
-    "age": 38,
-    "email": "Felix.Wunsch@estevan.net",
-    "secondaryEmail": "Emilie61@test.com",
-    "fullName": "Felix Wunsch",
-    "father": {
-      "firstName": "Ricky",
-      "lastName": "Shields"
-    },
-    "mother": {
-      "firstName": "Sherry",
-      "lastName": "Huel"
-    },
-    "siblings": [
-      {
-        "firstName": "Bradford",
-        "lastName": "Willms",
-        "email": "Bradford.Willms@mylene.net",
-        "fullName": "Bradford Willms"
-      },
-      {
-        "firstName": "Andres",
-        "lastName": "Rau",
-        "email": "Andres.Rau@stephon.biz",
-        "fullName": "Andres Rau"
-      }
-    ]
+    "name": "Cathy Purdy",
+    "jobTitle": "Chief Brand Architect",
+    "jobDescription": "Research",
+    "postCode": "02965",
+    "streetAddress": "5348 Veum Passage Suite 656"
   },
   {
-    "firstName": "Christian",
-    "lastName": "Stehr",
-    "age": 11,
-    "email": "Christian.Stehr@dennis.org",
-    "secondaryEmail": "Sven97@test.com",
-    "fullName": "Christian Stehr",
-    "father": {
-      "firstName": "Owen",
-      "lastName": "Luettgen"
-    },
-    "mother": {
-      "firstName": "Cynthia",
-      "lastName": "Kiehn"
-    },
-    "siblings": [
-      {
-        "firstName": "Jalon",
-        "lastName": "Hansen",
-        "email": "Jalon.Hansen@mateo.org",
-        "fullName": "Jalon Hansen"
-      },
-      {
-        "firstName": "Bell",
-        "lastName": "Senger",
-        "email": "Bell.Senger@emilia.info",
-        "fullName": "Bell Senger"
-      }
-    ]
+    "name": "Jennie Windler III",
+    "jobTitle": "National Assurance Manager",
+    "jobDescription": "Mobility",
+    "postCode": "52478",
+    "streetAddress": "2850 Trey Common Suite 390"
   },
   {
-    "firstName": "Saul",
-    "lastName": "Kunde",
-    "age": 80,
-    "email": "Saul.Kunde@kristin.biz",
-    "secondaryEmail": "Chadrick_Cartwright30@test.com",
-    "fullName": "Saul Kunde",
-    "father": {
-      "firstName": "Robin",
-      "lastName": "Wolff"
-    },
-    "mother": {
-      "firstName": "Faith",
-      "lastName": "Gerlach"
-    },
-    "siblings": [
-      {
-        "firstName": "Retha",
-        "lastName": "Yost",
-        "email": "Retha.Yost@golden.biz",
-        "fullName": "Retha Yost"
-      },
-      {
-        "firstName": "Fleta",
-        "lastName": "Willms",
-        "email": "Fleta.Willms@bret.name",
-        "fullName": "Fleta Willms"
-      },
-      {
-        "firstName": "Johnson",
-        "lastName": "Hoeger",
-        "email": "Johnson.Hoeger@lina.com",
-        "fullName": "Johnson Hoeger"
-      }
-    ]
+    "name": "Jack Fay III",
+    "jobTitle": "Customer Marketing Assistant",
+    "jobDescription": "Group",
+    "postCode": "28112",
+    "streetAddress": "24018 Weimann Knolls Apt. 429"
   },
   {
-    "firstName": "Fred",
-    "lastName": "Crooks",
-    "age": 54,
-    "email": "Fred.Crooks@mckenna.com",
-    "secondaryEmail": "Colten.Bahringer41@test.com",
-    "fullName": "Fred Crooks",
-    "father": {
-      "firstName": "Geoffrey",
-      "lastName": "Wehner"
-    },
-    "mother": {
-      "firstName": "Eileen",
-      "lastName": "Hane"
-    },
-    "siblings": [
-      {
-        "firstName": "June",
-        "lastName": "Ziemann",
-        "email": "June.Ziemann@ivory.net",
-        "fullName": "June Ziemann"
-      },
-      {
-        "firstName": "Meda",
-        "lastName": "VonRueden",
-        "email": "Meda.VonRueden@kaylah.net",
-        "fullName": "Meda VonRueden"
-      },
-      {
-        "firstName": "Keira",
-        "lastName": "Wunsch",
-        "email": "Keira.Wunsch@rylee.info",
-        "fullName": "Keira Wunsch"
-      }
-    ]
+    "name": "Tricia Lubowitz",
+    "jobTitle": "Dynamic Applications Technician",
+    "jobDescription": "Solutions",
+    "postCode": "85410",
+    "streetAddress": "935 Kemmer Villages Apt. 298"
   },
   {
-    "firstName": "Craig",
-    "lastName": "Marquardt",
-    "age": 86,
-    "email": "Craig.Marquardt@devyn.biz",
-    "secondaryEmail": "Lisa.Hegmann95@test.com",
-    "fullName": "Craig Marquardt",
-    "father": {
-      "firstName": "Rodolfo",
-      "lastName": "Hickle"
-    },
-    "mother": {
-      "firstName": "Adrienne",
-      "lastName": "Lehner"
-    },
-    "siblings": [
-      {
-        "firstName": "Jadon",
-        "lastName": "Farrell",
-        "email": "Jadon.Farrell@ronaldo.net",
-        "fullName": "Jadon Farrell"
-      },
-      {
-        "firstName": "Roman",
-        "lastName": "Bins",
-        "email": "Roman.Bins@tremayne.com",
-        "fullName": "Roman Bins"
-      },
-      {
-        "firstName": "Rahul",
-        "lastName": "Becker",
-        "email": "Rahul.Becker@humberto.org",
-        "fullName": "Rahul Becker"
-      }
-    ]
+    "name": "Kate Bode",
+    "jobTitle": "Investor Accountability Officer",
+    "jobDescription": "Research",
+    "postCode": "92154-8894",
+    "streetAddress": "8636 Ladarius Isle Apt. 444"
   },
   {
-    "firstName": "David",
-    "lastName": "Sporer",
-    "age": 86,
-    "email": "David.Sporer@terry.biz",
-    "secondaryEmail": "Bailey63@test.com",
-    "fullName": "David Sporer",
-    "father": {
-      "firstName": "Oscar",
-      "lastName": "Herman"
-    },
-    "mother": {
-      "firstName": "Ora",
-      "lastName": "Kuvalis"
-    },
-    "siblings": [
-      {
-        "firstName": "Neil",
-        "lastName": "Hintz",
-        "email": "Neil.Hintz@coy.org",
-        "fullName": "Neil Hintz"
-      }
-    ]
+    "name": "Ted Feest",
+    "jobTitle": "District Marketing Associate",
+    "jobDescription": "Accounts",
+    "postCode": "91555-1039",
+    "streetAddress": "13648 Queenie Ports Apt. 237"
   },
   {
-    "firstName": "Roderick",
-    "lastName": "Wintheiser",
-    "age": 11,
-    "email": "Roderick.Wintheiser@nora.info",
-    "secondaryEmail": "Ron_Kunze@test.com",
-    "fullName": "Roderick Wintheiser",
-    "father": {
-      "firstName": "Colin",
-      "lastName": "Harris"
-    },
-    "mother": {
-      "firstName": "Iris",
-      "lastName": "Runolfsdottir"
-    },
-    "siblings": [
-      {
-        "firstName": "Josefina",
-        "lastName": "Watsica",
-        "email": "Josefina.Watsica@skyla.org",
-        "fullName": "Josefina Watsica"
-      }
-    ]
+    "name": "Erin Sipes",
+    "jobTitle": "Internal Web Officer",
+    "jobDescription": "Program",
+    "postCode": "28571-8057",
+    "streetAddress": "475 Keebler Street Apt. 356"
   },
   {
-    "firstName": "Jesus",
-    "lastName": "Lockman",
-    "age": 27,
-    "email": "Jesus.Lockman@bettie.com",
-    "secondaryEmail": "Kurtis.Rodriguez@test.com",
-    "fullName": "Jesus Lockman",
-    "father": {
-      "firstName": "Ralph",
-      "lastName": "Hayes"
-    },
-    "mother": {
-      "firstName": "Jody",
-      "lastName": "Towne"
-    },
-    "siblings": [
-      {
-        "firstName": "Murphy",
-        "lastName": "Hyatt",
-        "email": "Murphy.Hyatt@britney.name",
-        "fullName": "Murphy Hyatt"
-      },
-      {
-        "firstName": "Dorian",
-        "lastName": "Nolan",
-        "email": "Dorian.Nolan@zane.org",
-        "fullName": "Dorian Nolan"
-      }
-    ]
+    "name": "Barbara Powlowski",
+    "jobTitle": "Future Division Producer",
+    "jobDescription": "Paradigm",
+    "postCode": "43430",
+    "streetAddress": "6014 Emmerich Viaduct Suite 209"
   },
   {
-    "firstName": "Ricardo",
-    "lastName": "Schoen",
-    "age": 3,
-    "email": "Ricardo.Schoen@angela.name",
-    "secondaryEmail": "Orland_Lindgren23@test.com",
-    "fullName": "Ricardo Schoen",
-    "father": {
-      "firstName": "Lamar",
-      "lastName": "Tillman"
-    },
-    "mother": {
-      "firstName": "Willie",
-      "lastName": "Mosciski"
-    },
-    "siblings": []
+    "name": "Beverly Russel",
+    "jobTitle": "Future Intranet Designer",
+    "jobDescription": "Metrics",
+    "postCode": "28419",
+    "streetAddress": "1109 Elvis Plain Suite 533"
   },
   {
-    "firstName": "Nicholas",
-    "lastName": "Ward",
-    "age": 70,
-    "email": "Nicholas.Ward@asa.name",
-    "secondaryEmail": "Rosalind_Wintheiser51@test.com",
-    "fullName": "Nicholas Ward",
-    "father": {
-      "firstName": "Jean",
-      "lastName": "Hackett"
-    },
-    "mother": {
-      "firstName": "Lee",
-      "lastName": "Kuphal"
-    },
-    "siblings": [
-      {
-        "firstName": "Kali",
-        "lastName": "Kris",
-        "email": "Kali.Kris@dustin.org",
-        "fullName": "Kali Kris"
-      }
-    ]
+    "name": "Ms. Herman Baumbach",
+    "jobTitle": "Product Assurance Associate",
+    "jobDescription": "Web",
+    "postCode": "23437-1157",
+    "streetAddress": "8838 Jakubowski Ridge Suite 138"
   }
 ]
