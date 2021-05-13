@@ -48,13 +48,13 @@ function getProviderCallback (seed, providers) {
   let provider
 
   if (
-    providers[seed] == undefined &&
+    providers.providers[seed] == undefined &&
     providers.processors.includes(seed) == false &&
     providers.providersWithParams[seed] == undefined
   ) {
     provider = `faker.${seed}`
-  } else if (providers[seed] != undefined) {
-    provider = `${providers[seed]}`
+  } else if (providers.providers[seed] != undefined) {
+    provider = `${providers.providers[seed]}`
   } else if (providers.processors.includes(seed) != false) {
     provider = seed
   } else if (providers.providersWithParams[seed] != undefined) {
@@ -76,7 +76,7 @@ function callFunction (seed, providers, tempData) {
     const fakerProvider = providers.providersWithParams[_provider]
     fn = `fakerProxy('${fakerProvider}',${args.join(',')})`
   } else {
-    fn = providers[seed]
+    fn = providers.providers[seed]
   }
   return eval(fn)
 }
