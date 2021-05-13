@@ -7,6 +7,5 @@ export default {
     jobTitle:"jobTitle",
     jobDescription:"jobArea",
     postCode:"zipCode",
-    streetAddress:"streetAddress,true", //or "streetAddress"
   }
 }
