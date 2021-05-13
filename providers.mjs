@@ -108,6 +108,13 @@ export default {
     commitMessage:'faker.git.commitMessage()',
     commitSha:'faker.git.commitSha()',
     shortSha:'faker.git.shortSha()',
+    //hacker
+    abbreviation:'faker.hacker.abbreviation()',
+    adjective:'faker.hacker.adjective()',
+    noun:'faker.hacker.noun()',
+    verb:'faker.hacker.verb()',
+    ingverb:'faker.hacker.ingverb()',
+    phrase:'faker.hacker.phrase()',
   },
   processors: [
     'joiner',
