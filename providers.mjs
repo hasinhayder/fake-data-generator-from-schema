@@ -154,6 +154,8 @@ export default {
     color:'faker.internet.color()',
     mac:'faker.internet.mac()',
     password:'faker.internet.password()',
+    //music
+    genre:'faker.music.genre()'
   },
   processors: [
     'joiner',
@@ -179,5 +181,15 @@ export default {
     soon:'faker.date.soon', //days.dateRef
     month:'faker.date.month', //days.dateRef
     weekday:'faker.date.weekday', //days.dateRef
+    //lorem
+    word:'faker.lorem.word',
+    words:'faker.lorem.words',
+    sentence:'faker.lorem.sentence',
+    sentences:'faker.lorem.sentences',
+    slug:'faker.lorem.slug',
+    paragraph:'faker.lorem.paragraph',
+    paragraphs:'faker.lorem.paragraphs',
+    text:'faker.lorem.text',
+    lines:'faker.lorem.lines',
   }
 }
