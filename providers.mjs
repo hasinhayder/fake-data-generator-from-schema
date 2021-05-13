@@ -74,6 +74,16 @@ export default {
     type:'faker.database.type()',
     collation:'faker.database.collation()',
     engine:'faker.database.engine()',
+    //data types
+    number:'faker.datatype.number()',
+    float:'faker.datatype.float()',
+    datetime:'faker.datatype.datetime()',
+    string:'faker.datatype.string()',
+    uuid:'faker.datatype.uuid()',
+    hexaDecimal:'faker.datatype.hexaDecimal()',
+    boolean:'faker.datatype.boolean()',
+    json:'faker.datatype.json()',
+    array:'faker.datatype.array()',
   },
   processors: [
     'joiner',
