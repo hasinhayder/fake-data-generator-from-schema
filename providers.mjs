@@ -84,6 +84,9 @@ export default {
     boolean:'faker.datatype.boolean()',
     json:'faker.datatype.json()',
     array:'faker.datatype.array()',
+    //date
+    
+    between:'faker.date.between()',
   },
   processors: [
     'joiner',
@@ -101,6 +104,13 @@ export default {
     streetAddress: 'faker.address.streetAddress',
     countryCode: 'faker.address.countryCode', //param default=alpha-2, accepts alpha-3
     price:'faker.commerce.price', //min, max, dec, symbol
-
+    past:'faker.date.past',//years,dateRef
+    future:'faker.date.future',//years,dateRef
+    between:'faker.date.between', //from,to
+    betweens:'faker.date.betweens', //from,to
+    recent:'faker.date.recent', //days.dateRef
+    soon:'faker.date.soon', //days.dateRef
+    month:'faker.date.month', //days.dateRef
+    weekday:'faker.date.weekday', //days.dateRef
   }
 }
