@@ -1,8 +1,7 @@
 export default {
-  // total:'random',
   output:'./output.json',
   total:'10',
-  types:{
+  structure:{
     image:'avatar',
     name:"name",
     jobTitle:"jobTitle",

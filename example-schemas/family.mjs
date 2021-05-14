@@ -3,7 +3,7 @@ export default {
   output:'./output.json',
   total:'10',
   skips:['domain'],
-  types:{
+  structure:{
     firstName: 'maleFirstName',
     lastName: 'maleLastName',
     age:'randomNumber,1,100',
@@ -30,7 +30,7 @@ export default {
       total:'random',
       limit:3,
       // total:1,
-      types:{
+      structure:{
         firstName:'firstName',
         lastName:'lastName',
         domain:'domain',

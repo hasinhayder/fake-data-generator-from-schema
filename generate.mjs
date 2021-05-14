@@ -19,12 +19,12 @@ function genereateData (schema, providers) {
       : schema.total ?? 1
   for (let j = 0; j < total; j++) {
     const tempData = {}
-    for (const i in schema.types) {
-      if ('object' == typeof schema.types[i]) {
+    for (const i in schema.structure) {
+      if ('object' == typeof schema.structure[i]) {
         //generate nested data
-        tempData[i] = genereateData(schema.types[i], providers)
+        tempData[i] = genereateData(schema.structure[i], providers)
       } else {
-        tempData[i] = callFunction(schema.types[i], providers, tempData)
+        tempData[i] = callFunction(schema.structure[i], providers, tempData)
       }
     }
 
