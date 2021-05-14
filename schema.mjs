@@ -7,10 +7,11 @@ export default {
     lastName:'lastName',
     name:'joinerSpace,firstName,lastName',
     email:'emailFromNameAndDomain,firstName,lastName,amazing.edu',
-    grade:'randomeNumber,6,12',
+    grade:'11', //Static 11 or randomNumber,6,12
+    section:'randomItem,Cherry,Rose,Gerbera',
     major:'randomItemN,2,physics,chemisty,math,english,geography',
     result:{
-      single:true,
+      return:'single',
       structure:{
         physics:'randomItem,A+,A,A-,B+,B,B-,C,D',
         chemisty:'randomItem,A+,A,A-,B+,B,B-,C,D',
