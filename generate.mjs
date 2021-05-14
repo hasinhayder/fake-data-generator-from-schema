@@ -1,7 +1,7 @@
+import { writeFileSync } from 'fs'
 import faker from 'faker'
 import providers from './providers.mjs'
 import schema from './schema.mjs'
-import { writeFileSync } from 'fs'
 
 const generatedData = genereateData(schema, providers)
 if (schema.output) {
@@ -18,7 +18,7 @@ function genereateData (schema, providers) {
       ? parseInt(faker.datatype.number(limit))
       : schema.total ?? 1
   for (let j = 0; j < total; j++) {
-    let tempData = {}
+    const tempData = {}
     for (const i in schema.types) {
       if (typeof schema.types[i] == 'object') {
         //generate nested data
@@ -44,27 +44,27 @@ function genereateData (schema, providers) {
   return generatedData
 }
 
-function getProviderCallback (seed, providers) {
+function getProviderCallback (seeder, providers) {
   let provider
 
   if (
-    providers.providers[seed] == undefined &&
-    providers.processors.includes(seed) == false &&
-    providers.providersWithParams[seed] == undefined
+    providers.providers[seeder] == undefined &&
+    providers.processors.includes(seeder) == false &&
+    providers.providersWithParams[seeder] == undefined
   ) {
-    provider = `faker.${seed}`
-  } else if (providers.providers[seed] != undefined) {
-    provider = `${providers.providers[seed]}`
-  } else if (providers.processors.includes(seed) != false) {
-    provider = seed
-  } else if (providers.providersWithParams[seed] != undefined) {
+    provider = `faker.${seeder}`
+  } else if (providers.providers[seeder] != undefined) {
+    provider = `${providers.providers[seeder]}`
+  } else if (providers.processors.includes(seeder) != false) {
+    provider = seeder
+  } else if (providers.providersWithParams[seeder] != undefined) {
     provider = 'fakerProxy'
   }
   return provider
 }
 
-function callFunction (seed, providers, tempData) {
-  let args = seed.split(',')
+function callFunction (seeder, providers, tempData) {
+  let args = seeder.split(',')
   let fn
   const _provider = args.shift().trim()
   const provider = getProviderCallback(_provider, providers)
@@ -76,7 +76,7 @@ function callFunction (seed, providers, tempData) {
     const fakerProvider = providers.providersWithParams[_provider]
     fn = `fakerProxy('${fakerProvider}',${args.join(',')})`
   } else {
-    fn = providers.providers[seed]
+    fn = providers.providers[seeder]
   }
   return eval(fn)
 }
@@ -154,8 +154,6 @@ function year (tempData, min = 1900, max = 2200) {
 function slugify (tempData, item) {
   return faker.helpers.slugify(tempData[item])
 }
-
-
 
 function emailDomain (tempData, domain = 'example.com') {
   return faker.internet.email('', '', domain)

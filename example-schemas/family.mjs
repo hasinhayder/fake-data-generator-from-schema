@@ -31,8 +31,8 @@ export default {
       limit:3,
       // total:1,
       types:{
-        firstName:'name.firstName()',
-        lastName:'name.lastName()',
+        firstName:'firstName',
+        lastName:'lastName',
         domain:'domain',
         email:'joiner,firstName,.,lastName,@,domain',
         fullName:'joinerSpace,firstName,lastName',
