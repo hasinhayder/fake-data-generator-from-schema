@@ -205,6 +205,7 @@ export default {
     'randomItem',
     'randomItemNMax',
     'randomItemN',
+    'slugify'
   ],
   providersWithParams: {
     zipCodeByState: 'faker.address.zipCodeByState',
