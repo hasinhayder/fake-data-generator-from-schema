@@ -155,7 +155,11 @@ function slugify (tempData, item) {
 }
 
 function emailDomain (domain = 'example.com') {
-  return faker.internet.email('', '', domain)
+  return faker.internet.email('', '', domain).toLowerCase()
+}
+
+function emailFromNameAndDomain (tempData, fn, ln, domain = 'example.com') {
+  return faker.internet.email(tempData[fn], tempData[ln], domain).toLowerCase()
 }
 
 function fakerProxy (provider, ...params) {
@@ -166,5 +170,5 @@ function fakerProxy (provider, ...params) {
 
 function unsplash (w = 800, h = 600, keyword = 'smile') {
   const url = `https://source.unsplash.com/random/${w}x${h}?${keyword}`
-  return url;
+  return url
 }

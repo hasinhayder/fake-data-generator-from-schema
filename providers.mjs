@@ -200,6 +200,7 @@ export default {
     'append',
     'prepend',
     'slugify',
+    'emailFromNameAndDomain'
   ],
   providersWithParams: {
     zipCodeByState: 'faker.address.zipCodeByState',
