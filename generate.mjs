@@ -119,11 +119,15 @@ function append (tempData, ...params) {
 }
 
 function randomNumber (min = 0, max = 100) {
-  let n = faker.datatype.number(100)
+  let n = faker.datatype.number(max)
   if (n < min) {
     n += min
   }
   return n
+}
+
+function year (min = 1900, max = 2200) {
+  return randomNumber(min, max)
 }
 
 function emailDomain (tempData, ...params) {

@@ -7,6 +7,12 @@ export default {
     femaleLastName: 'faker.name.lastName(1)',
     maleFirstName: 'faker.name.firstName(0)',
     maleLastName: 'faker.name.lastName(0)',
+    femaleMiddleName: 'faker.name.middleName(1)',
+    maleMiddleName: 'faker.name.middleName(0)',
+    gender: 'faker.name.gender(0)',
+    namePrefix: 'faker.name.prefix(0)',
+    nameSuffix: 'faker.name.suffix(0)',
+    nameTitle: 'faker.name.title(0)',
     domain: 'faker.internet.domainName()',
     age: 'faker.datatype.number(100)',
     jobTitle: 'faker.name.jobTitle()',
@@ -155,7 +161,35 @@ export default {
     mac:'faker.internet.mac()',
     password:'faker.internet.password()',
     //music
-    genre:'faker.music.genre()'
+    genre:'faker.music.genre()',
+    //phome
+    phoneNumber:'faker.phone.phoneNumber()',
+    phoneFormats:'faker.phone.phoneFormats()',
+    //system
+    fileName:'faker.system.fileName()',
+    commonFileName:'faker.system.commonFileName()',
+    mimeType:'faker.system.mimeType()',
+    commonFileType:'faker.system.commonFileType()',
+    commonFileExt:'faker.system.commonFileExt()',
+    fileType:'faker.system.fileType()',
+    fileExt:'faker.system.fileExt()',
+    directoryPath:'faker.system.directoryPath()',
+    filePath:'faker.system.filePath()',
+    semver:'faker.system.semver()',
+    //time
+    recent:'faker.time.recent()',
+    //vehicle
+    vehicle:'faker.vehicle.vehicle()',
+    manufacturer:'faker.vehicle.manufacturer()',
+    manufacturer:'faker.vehicle.manufacturer()',
+    model:'faker.vehicle.model()',
+    type:'faker.vehicle.type()',
+    fuel:'faker.vehicle.fuel()',
+    vin:'faker.vehicle.vin()',
+    color:'faker.vehicle.color()',
+    vrm:'faker.vehicle.vrm()',
+    bicycle:'faker.vehicle.bicycle()',
+
   },
   processors: [
     'joiner',
@@ -166,7 +200,8 @@ export default {
     'append',
     'prepend',
     'randomNumber',
-    'emailDomain'
+    'emailDomain',
+    'year'
   ],
   providersWithParams: {
     zipCodeByState: 'faker.address.zipCodeByState',
@@ -191,5 +226,7 @@ export default {
     paragraphs:'faker.lorem.paragraphs',
     text:'faker.lorem.text',
     lines:'faker.lorem.lines',
+    //phone
+    phoneNumberFormat:'faker.phone.phoneNumberFormat',
   }
 }
