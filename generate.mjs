@@ -119,20 +119,39 @@ function append (tempData, ...params) {
 }
 
 function randomNumber (tempData, min = 0, max = 100) {
-  min = parseInt(min);
-  max = parseInt(max);
+  min = parseInt(min)
+  max = parseInt(max)
   let n = faker.datatype.number(max)
   if (n < min) {
-    n += (max-min)
+    n += max - min
   }
   return n
 }
 
-function year (tempData, min = 1900, max = 2200) {
-  return randomNumber(min, max)
+//this will return one random item from the list
+function randomItem (tempData, ...params) {
+  return faker.helpers.randomize(params);
 }
 
-function emailDomain (tempData, domain="example.com") {
+//this will return N number of items from the list, number of items varies from 0 to N
+function randomItemNMax (tempData, n, ...params) {
+  const length = randomNumber(tempData, 1, n)
+  params = faker.helpers.shuffle(params)
+  return params.splice(0, length)
+}
+
+//this will return exactly N number of items from the list
+function randomItemN (tempData, n, ...params) {
+  const length = n
+  params = faker.helpers.shuffle(params)
+  return params.splice(0, length)
+}
+
+function year (tempData, min = 1900, max = 2200) {
+  return randomNumber(tempData, min, max)
+}
+
+function emailDomain (tempData, domain = 'example.com') {
   return faker.internet.email('', '', domain)
 }
 

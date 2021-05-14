@@ -1,82 +1,174 @@
 [
   {
-    "image": "https://cdn.fakercloud.com/avatars/ryhanhassan_128.jpg",
-    "name": "Andrea Ledner",
-    "jobTitle": "Central Directives Consultant",
-    "company": "Muller - Dietrich",
-    "testimonial": "Quae in quisquam vel non et veniam et provident repudiandae facere voluptatem adipisci dolores natus doloremque excepturi aperiam molestiae et consequatur ipsa quas repellendus voluptatum quis ut officiis saepe molestiae nisi numquam doloremque perspiciatis sit exercitationem aut asperiores ea doloremque quia sunt est enim molestiae corrupti qui non quas quia officia enim aspernatur ut error repellendus velit magnam ut harum ea est qui ut voluptas quae rerum sequi molestiae quibusdam sint quisquam qui qui consectetur sit placeat dolorum est rem modi sit qui natus hic atque ad possimus repellat architecto fugiat id quis iusto ut rerum numquam aut quas id.",
-    "age": 21
+    "image": "https://cdn.fakercloud.com/avatars/cadikkara_128.jpg",
+    "name": "Vivian Stehr",
+    "jobTitle": "District Research Supervisor",
+    "company": "Altenwerth, Ritchie and Erdman",
+    "testimonial": "Voluptates ut perspiciatis assumenda maxime beatae dolor animi velit tempora molestias ipsa non at laborum iure aut ea quia et aut recusandae expedita quo neque non dignissimos magnam consequatur expedita ea sunt qui sunt et ipsam et et non nulla laboriosam eveniet culpa velit officiis est ipsam dolor enim enim dignissimos aut debitis inventore excepturi nam reprehenderit est praesentium id sed inventore sit et eum tempore in quia et vel ut amet aut sunt fugit fugit adipisci tenetur eos accusantium nobis iure ut quasi voluptas molestiae velit optio id perferendis consectetur non quibusdam ut aut velit qui porro sint eos.",
+    "age": 22,
+    "favoriteColor": "green",
+    "favoriteColor2": [
+      "blue"
+    ],
+    "favoriteColor3": [
+      "green",
+      "blue",
+      "black"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/coderdiaz_128.jpg",
-    "name": "Lowell Weimann",
-    "jobTitle": "Internal Tactics Strategist",
-    "company": "White, Rowe and Goldner",
-    "testimonial": "Praesentium nisi voluptatem perferendis quis quaerat illum quae cumque animi voluptatem in rerum accusamus labore et est nulla dolor voluptas mollitia aut non enim sit et iure quia sapiente debitis est tempora qui molestiae voluptas expedita odio quis et laudantium enim assumenda ipsa dicta aut impedit nulla corrupti recusandae ratione omnis provident qui maiores itaque iure cum qui qui est et architecto deleniti dicta repellat nulla et nihil sed autem quae pariatur et totam commodi nobis porro consectetur sed mollitia non temporibus incidunt tempore est aliquam ducimus doloremque quia fugiat cumque dignissimos vitae maxime esse occaecati vel modi doloribus quo.",
-    "age": 26
+    "image": "https://cdn.fakercloud.com/avatars/stalewine_128.jpg",
+    "name": "Clara MacGyver",
+    "jobTitle": "Legacy Division Liaison",
+    "company": "Ullrich - Howell",
+    "testimonial": "Et qui laborum laboriosam ipsa reprehenderit saepe sint non sint officia libero voluptas debitis distinctio enim sed reprehenderit quidem odio rerum minima corporis quis ipsam aperiam architecto dolores laboriosam omnis dolores neque laborum reprehenderit et distinctio omnis quisquam aut eveniet itaque est incidunt adipisci harum sit eos dolor optio optio facilis eveniet natus accusantium mollitia sed vero eligendi sunt aliquam nihil praesentium qui qui enim doloribus vel provident dolores temporibus consequatur provident quidem assumenda placeat deserunt voluptatem ab dolorum impedit beatae iste voluptatum accusamus corporis et aut delectus voluptates recusandae ducimus sunt maiores eum iure perferendis dignissimos omnis cum voluptate.",
+    "age": 20,
+    "favoriteColor": "green",
+    "favoriteColor2": [
+      "green"
+    ],
+    "favoriteColor3": [
+      "cyan",
+      "black",
+      "red"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/kevinoh_128.jpg",
-    "name": "Salvatore Connelly PhD",
-    "jobTitle": "Lead Web Designer",
-    "company": "Adams, Corkery and Hamill",
-    "testimonial": "Reprehenderit velit adipisci architecto autem sequi cupiditate aspernatur dolorum rerum sit omnis quos nihil tempora non occaecati sed saepe assumenda officiis laboriosam voluptatibus veritatis sit consequatur voluptatem vel explicabo velit facilis est aperiam mollitia qui quidem et sequi mollitia nihil eius quis cupiditate vel ut nam vel totam minus dolorum impedit dolorum ducimus rerum soluta dignissimos deserunt dolores voluptatem velit eius exercitationem similique dolore exercitationem optio repellat voluptatem debitis aut impedit dolorem omnis ut qui eveniet repudiandae aut aliquam ut dolorum unde et aperiam et non sunt voluptas in consequatur aut assumenda blanditiis quas quas illum consequatur inventore voluptate nobis.",
-    "age": 28
+    "image": "https://cdn.fakercloud.com/avatars/thedamianhdez_128.jpg",
+    "name": "Miss Karl Roberts",
+    "jobTitle": "Investor Program Developer",
+    "company": "Stoltenberg - Nader",
+    "testimonial": "Ut ipsum consectetur cupiditate soluta enim deserunt minima voluptatem sit aperiam eveniet facilis aut rem omnis est non animi sint non tempore nobis est est omnis dolorem blanditiis dolor nulla quas in dolorem non cupiditate sed saepe iusto quibusdam non quae incidunt temporibus repellendus et molestias autem architecto aut voluptatem et optio iusto voluptatem quisquam et et voluptas quos assumenda eaque inventore nostrum iure minus ut animi doloribus dolores quidem maxime a natus est incidunt eius sequi iste soluta dolorem quidem qui in laborum facere beatae non veritatis commodi voluptatibus deserunt sit quia mollitia omnis ad consectetur eos qui error.",
+    "age": 21,
+    "favoriteColor": "red",
+    "favoriteColor2": [
+      "red",
+      "green"
+    ],
+    "favoriteColor3": [
+      "red",
+      "yellow",
+      "black"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/dawidwu_128.jpg",
-    "name": "Miss Rudy Berge",
-    "jobTitle": "Global Interactions Analyst",
-    "company": "Goyette - DuBuque",
-    "testimonial": "Minus qui rem facere quae sed est asperiores odio natus ex qui a provident error eligendi cumque minus numquam sapiente autem recusandae perspiciatis ad ea nihil cupiditate aperiam quaerat omnis est nemo qui nesciunt aut sunt voluptas maiores dicta eligendi inventore est molestiae dignissimos nulla fugiat commodi id omnis voluptatem dolores nemo dolor eum autem incidunt labore nemo nihil nisi est reiciendis ut totam culpa quos sit est in praesentium voluptate cupiditate quibusdam sed optio quos id possimus et voluptatem similique quasi deleniti quia quod velit illo ut id odit aut blanditiis veritatis consequatur nam sed quo et minus temporibus.",
-    "age": 35
+    "image": "https://cdn.fakercloud.com/avatars/karlkanall_128.jpg",
+    "name": "Joey Runolfsdottir",
+    "jobTitle": "Customer Brand Coordinator",
+    "company": "Legros, Okuneva and Huels",
+    "testimonial": "Fuga voluptas rem iusto quis enim iste veniam quis voluptatem nesciunt numquam sed magni nostrum tenetur facilis aut in aliquam illum sed suscipit qui esse ex est enim explicabo et iste et voluptatum sint minima tenetur eos explicabo maiores alias harum dolore voluptatibus velit provident facere dignissimos laborum ut eaque consequuntur blanditiis voluptate minima qui dolores et et et optio vitae et sit voluptatem quo vitae occaecati deserunt dolorum nemo qui quaerat necessitatibus dolor sed consequatur sit mollitia laudantium maiores non ipsa delectus quia et eaque minus ab nostrum eligendi et omnis nostrum sit et omnis delectus quae dolorem numquam.",
+    "age": 25,
+    "favoriteColor": "red",
+    "favoriteColor2": [
+      "blue"
+    ],
+    "favoriteColor3": [
+      "cyan",
+      "black",
+      "red"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/maximsorokin_128.jpg",
-    "name": "Ms. Ernest Hessel",
-    "jobTitle": "Direct Data Facilitator",
-    "company": "Auer - Wilderman",
-    "testimonial": "Et maxime reiciendis sequi ullam quisquam sequi nihil ut consectetur repellendus aut deserunt in rerum sit odit atque est nostrum incidunt qui sunt laborum repellendus itaque voluptatem magnam occaecati magnam rerum alias possimus velit labore dolore eum quo explicabo iusto consequuntur cupiditate odit enim ipsam libero quos eum fuga dolores qui itaque voluptatem unde eos deleniti consequatur corporis unde praesentium facere maxime totam mollitia tenetur quia quae ut ducimus dolores delectus vel dolor blanditiis et dolore facilis repellendus debitis ut dolore in aliquid enim ab impedit voluptas reprehenderit voluptates nihil nam qui animi eos et illo voluptatem illum illum ipsum.",
-    "age": 24
+    "image": "https://cdn.fakercloud.com/avatars/picard102_128.jpg",
+    "name": "Vera Zemlak",
+    "jobTitle": "Internal Infrastructure Technician",
+    "company": "Boyle - Pfannerstill",
+    "testimonial": "Tempore voluptatem doloremque tenetur vitae ut veniam non et qui aut commodi sed assumenda rerum voluptatum debitis voluptates ad quam molestiae repellat aliquid quia nisi beatae est odit sit et vel voluptatibus consequatur accusamus ea voluptas voluptates maiores iusto optio molestiae qui id commodi quasi iusto voluptatem assumenda maxime ipsa veritatis necessitatibus est amet repellat nobis laborum ipsa repellat dignissimos velit nemo in atque quos sunt perferendis voluptatem temporibus pariatur deserunt recusandae aut accusamus illum et cumque molestiae maiores omnis sapiente eaque repudiandae consequatur temporibus quos sunt placeat iure vel vero sed neque qui molestiae ut perspiciatis neque enim unde.",
+    "age": 23,
+    "favoriteColor": "green",
+    "favoriteColor2": [
+      "green"
+    ],
+    "favoriteColor3": [
+      "black",
+      "blue",
+      "yellow"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/posterjob_128.jpg",
-    "name": "Colleen Willms",
-    "jobTitle": "Internal Markets Agent",
-    "company": "Denesik - Metz",
-    "testimonial": "Error perferendis repudiandae et laudantium nam dolor iste recusandae incidunt expedita similique cumque nemo dolore laudantium ut culpa ea ullam dicta provident excepturi ea voluptatibus est praesentium harum iste sunt aut porro velit voluptatem officiis dolore omnis beatae quia molestias cupiditate dolorem dicta omnis nihil quia praesentium placeat rerum placeat labore nihil omnis repellendus cumque ut nam illo in recusandae esse deleniti ducimus architecto reprehenderit ipsa voluptas sed qui repellendus repellendus commodi quos voluptas quaerat natus mollitia dolorem odit voluptatem rem voluptas explicabo omnis beatae ut nihil iure aliquam temporibus et minus et dolores soluta sed facilis ea repellat praesentium.",
-    "age": 26
+    "image": "https://cdn.fakercloud.com/avatars/fran_mchamy_128.jpg",
+    "name": "Mrs. Lynn Kunde",
+    "jobTitle": "Global Assurance Planner",
+    "company": "Connelly - Rohan",
+    "testimonial": "Sunt quasi commodi reprehenderit consequatur architecto inventore nihil voluptates itaque quos esse necessitatibus soluta officia sapiente ad labore est minima sapiente laboriosam consequuntur cum est nisi nostrum qui et sunt ipsum consequatur dolor aut voluptas ipsam pariatur autem ad eos omnis facere ea maxime voluptatem rem ab inventore mollitia quia aut deserunt autem quo libero voluptas beatae voluptas quae doloremque veniam reprehenderit ut nihil ea tempore mollitia molestiae sit dolor cum quos ut est sit dolores provident alias eveniet ipsum nobis fuga id repellat reiciendis atque debitis harum adipisci hic aperiam velit vel tempore distinctio quo sit optio distinctio explicabo.",
+    "age": 22,
+    "favoriteColor": "red",
+    "favoriteColor2": [
+      "green"
+    ],
+    "favoriteColor3": [
+      "green",
+      "white",
+      "yellow"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/mhudobivnik_128.jpg",
-    "name": "Jessica Okuneva",
-    "jobTitle": "Regional Program Representative",
-    "company": "Rodriguez LLC",
-    "testimonial": "Sit ut cum reprehenderit nihil veniam molestias sint voluptas laborum ut perspiciatis ipsam ea vitae sit non blanditiis nihil maxime aut quia deleniti non sed esse error unde voluptates ullam ex nam occaecati est distinctio quae cumque eum iusto iste in rerum nisi sunt enim eaque et facilis commodi magnam unde et veniam est enim quas voluptatem totam molestias voluptatem quis alias in dolor dolor dolorem commodi voluptatem animi ipsam occaecati aliquid assumenda quis accusantium qui veniam corporis ipsam dolor recusandae cumque dolorum repellendus sint tempora aspernatur unde quod qui atque delectus qui veritatis voluptas quibusdam dolorem dolorum cum eos.",
-    "age": 25
+    "image": "https://cdn.fakercloud.com/avatars/ddggccaa_128.jpg",
+    "name": "Mrs. Tabitha Yost",
+    "jobTitle": "Principal Factors Officer",
+    "company": "Waelchi LLC",
+    "testimonial": "Sunt doloremque et minima asperiores quasi aut laborum saepe neque quibusdam non rerum et repellendus nisi quia enim quia officia animi velit eaque in neque architecto iusto et et sit iste debitis sit ab ut quisquam consequatur voluptas est sint omnis doloribus tempore voluptatibus illum recusandae cupiditate pariatur praesentium quae praesentium corrupti odio molestiae eos quo provident at at inventore molestiae doloribus voluptatum quas ad eos nihil perspiciatis culpa voluptas vel qui eveniet totam illum quis maiores eos perferendis id cupiditate rem odit doloremque ut quae animi nam qui veniam molestias eum sit est necessitatibus quibusdam veniam tempore quia ducimus.",
+    "age": 15,
+    "favoriteColor": "green",
+    "favoriteColor2": [
+      "blue",
+      "green"
+    ],
+    "favoriteColor3": [
+      "cyan",
+      "blue",
+      "white"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/flashmurphy_128.jpg",
-    "name": "Cameron Lindgren",
-    "jobTitle": "Dynamic Data Associate",
-    "company": "Breitenberg, Nolan and Farrell",
-    "testimonial": "Sit doloribus accusamus qui nam et et necessitatibus consequatur est odit illum sed distinctio sed voluptatem qui voluptas reiciendis dolores numquam molestiae eos minus provident quasi et adipisci cumque asperiores est nisi perspiciatis eos voluptatem voluptas optio voluptatem commodi quisquam reiciendis qui est in debitis sapiente voluptatem sed nam eligendi cum rem iure voluptatum harum eveniet quasi eum odit molestiae possimus enim voluptas doloremque reiciendis assumenda quo est sint porro sit impedit sed culpa facere eos et sit quae architecto sunt vel voluptatem velit ut alias voluptatem corporis omnis maiores quia corporis sint voluptatem quia quae et ut hic odio.",
-    "age": 29
+    "image": "https://cdn.fakercloud.com/avatars/desastrozo_128.jpg",
+    "name": "Kelley Howe",
+    "jobTitle": "Corporate Research Agent",
+    "company": "Runolfsson, Conroy and Walker",
+    "testimonial": "Ut numquam et aut tenetur ab et nobis deserunt adipisci omnis et quos doloribus aliquid et consequatur non molestiae ut corporis at tenetur voluptatem eos est recusandae recusandae tempora officia totam saepe explicabo ut molestiae sit vel cupiditate consectetur voluptatem laborum magni quas non qui enim repudiandae incidunt ut dolor totam sit sed accusamus deleniti debitis est ut et nulla omnis qui et est eaque voluptas ut dolore sed consectetur et consequuntur enim aut consequuntur explicabo alias vel sed molestiae voluptatem suscipit et corporis porro exercitationem impedit temporibus accusamus adipisci dolorum exercitationem ut iste accusamus vitae quo provident nisi ratione.",
+    "age": 31,
+    "favoriteColor": "green",
+    "favoriteColor2": [
+      "green"
+    ],
+    "favoriteColor3": [
+      "white",
+      "green",
+      "blue"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/marlinjayakody_128.jpg",
-    "name": "Mona Tillman",
-    "jobTitle": "Lead Mobility Officer",
-    "company": "Crist - Wolf",
-    "testimonial": "Accusantium nihil velit quam sint voluptatem qui architecto unde consectetur quis porro porro est optio officiis fugit exercitationem aut id ut nobis blanditiis quia excepturi cupiditate pariatur consequatur est officia praesentium cupiditate perferendis sequi quibusdam recusandae sint nobis saepe qui mollitia laudantium expedita ex repudiandae odit cumque est accusamus tempore magni totam maiores est qui ea et excepturi voluptates quaerat odit omnis ipsa in at a sed doloremque est consequatur qui qui dolor reprehenderit animi impedit quia quam eos odit debitis ullam consequatur dicta maxime quidem debitis qui qui saepe accusantium veritatis ullam est ipsam recusandae et nam in voluptate.",
-    "age": 21
+    "image": "https://cdn.fakercloud.com/avatars/belyaev_rs_128.jpg",
+    "name": "Miss John Feest",
+    "jobTitle": "Forward Response Liaison",
+    "company": "Wintheiser LLC",
+    "testimonial": "Consequatur ratione ea nemo fuga fugiat maiores necessitatibus qui ex officia maxime temporibus reprehenderit eos ut est error delectus perspiciatis aut ab eum nihil nesciunt explicabo voluptatibus aut eos voluptatem id esse animi ad est ipsum et ipsum consequuntur quisquam veritatis delectus temporibus sapiente nostrum in aut rerum repudiandae corporis voluptate quae veritatis fugit perspiciatis rerum et esse velit et incidunt aspernatur sed quo quo delectus et corrupti consectetur ut voluptate natus aliquam vitae nulla molestiae necessitatibus molestiae incidunt voluptas autem quo illo beatae sint ut reprehenderit maiores autem quam cumque error voluptatibus est pariatur non voluptas aut eaque tenetur.",
+    "age": 31,
+    "favoriteColor": "red",
+    "favoriteColor2": [
+      "blue"
+    ],
+    "favoriteColor3": [
+      "white",
+      "blue",
+      "cyan"
+    ]
   },
   {
-    "image": "https://cdn.fakercloud.com/avatars/victorstuber_128.jpg",
-    "name": "Rafael Greenfelder",
-    "jobTitle": "Global Configuration Strategist",
-    "company": "Hoeger LLC",
-    "testimonial": "Est aperiam delectus laboriosam est maxime libero modi pariatur animi voluptates qui beatae aliquid quia in id consequatur enim beatae doloribus omnis ut quia perspiciatis incidunt minima voluptatem tempora itaque id placeat reiciendis eligendi eveniet id velit pariatur nam earum est nam iusto velit et id sint ut ut eos ut est provident nobis ut delectus ea aut ea ipsum quis vitae quas magni nihil rem ullam quas rerum enim vel molestias provident corrupti quia sunt in ut a sed harum neque autem nam aut laboriosam quidem est aut ex et laboriosam reprehenderit eveniet sit et quos harum excepturi nam.",
-    "age": 25
+    "image": "https://cdn.fakercloud.com/avatars/newbrushes_128.jpg",
+    "name": "Ruby Adams",
+    "jobTitle": "Customer Quality Manager",
+    "company": "Watsica - Rogahn",
+    "testimonial": "Sit qui dolores qui eveniet veniam aut rerum delectus deleniti eaque exercitationem impedit consequuntur fugit eos cupiditate est officia vitae dolore culpa adipisci ipsum sed ut nihil voluptatem expedita laborum nemo enim suscipit fugit architecto eum tempora similique voluptate sapiente natus qui est consequatur in ea quaerat ea omnis aperiam voluptate omnis aut sed est ipsam dolor enim expedita reprehenderit quae sed et itaque quaerat dolorem vel quasi repellat quia asperiores fuga sit corporis repudiandae corrupti mollitia impedit sint consequatur ratione et cupiditate debitis enim ratione minima velit quisquam magni commodi quia repudiandae quos cumque quasi ut nulla consequatur inventore.",
+    "age": 24,
+    "favoriteColor": "green",
+    "favoriteColor2": [
+      "green"
+    ],
+    "favoriteColor3": [
+      "red",
+      "blue",
+      "black"
+    ]
   }
 ]

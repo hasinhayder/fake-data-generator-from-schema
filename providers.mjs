@@ -201,7 +201,10 @@ export default {
     'prepend',
     'randomNumber',
     'emailDomain',
-    'year'
+    'year',
+    'randomItem',
+    'randomItemNMax',
+    'randomItemN',
   ],
   providersWithParams: {
     zipCodeByState: 'faker.address.zipCodeByState',
