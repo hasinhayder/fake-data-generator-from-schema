@@ -118,20 +118,22 @@ function append (tempData, ...params) {
   return tempData[params[1]] + params[0]
 }
 
-function randomNumber (min = 0, max = 100) {
+function randomNumber (tempData, min = 0, max = 100) {
+  min = parseInt(min);
+  max = parseInt(max);
   let n = faker.datatype.number(max)
   if (n < min) {
-    n += min
+    n += (max-min)
   }
   return n
 }
 
-function year (min = 1900, max = 2200) {
+function year (tempData, min = 1900, max = 2200) {
   return randomNumber(min, max)
 }
 
-function emailDomain (tempData, ...params) {
-  return faker.internet.email('', '', params[0])
+function emailDomain (tempData, domain="example.com") {
+  return faker.internet.email('', '', domain)
 }
 
 function fakerProxy (provider, ...params) {
