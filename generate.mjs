@@ -20,7 +20,7 @@ function genereateData (schema, providers) {
   for (let j = 0; j < total; j++) {
     const tempData = {}
     for (const i in schema.types) {
-      if (typeof schema.types[i] == 'object') {
+      if ('object' == typeof schema.types[i]) {
         //generate nested data
         tempData[i] = genereateData(schema.types[i], providers)
       } else {
@@ -83,9 +83,9 @@ function callFunction (seeder, providers, tempData) {
 
 function processArgs (args) {
   return args.map(item => {
-    if (item == 'true' || item === true) {
+    if ('true' == item || true === item) {
       return true
-    } else if (item == 'false' || item === false) {
+    } else if ('false' == item || false === item) {
       return false
     } else {
       return `'${item.trim()}'`
@@ -130,7 +130,7 @@ function randomNumber (tempData, min = 0, max = 100) {
 
 //this will return one random item from the list
 function randomItem (tempData, ...params) {
-  return faker.helpers.randomize(params);
+  return faker.helpers.randomize(params)
 }
 
 //this will return N number of items from the list, number of items varies from 0 to N
