@@ -151,6 +151,12 @@ function year (tempData, min = 1900, max = 2200) {
   return randomNumber(tempData, min, max)
 }
 
+function slugify (tempData, item) {
+  return faker.helpers.slugify(tempData[item])
+}
+
+
+
 function emailDomain (tempData, domain = 'example.com') {
   return faker.internet.email('', '', domain)
 }
