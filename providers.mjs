@@ -142,7 +142,6 @@ export default {
     transport:'faker.image.transport()',
     dataUri:'faker.image.dataUri()',
     lorempixel:'faker.image.lorempixel()',
-    unsplash:'faker.image.unsplash()',
     lorempicsum:'faker.image.lorempicsum()',
     //internet
     avatar:'faker.internet.avatar()',
@@ -191,7 +190,6 @@ export default {
     color:'faker.vehicle.color()',
     vrm:'faker.vehicle.vrm()',
     bicycle:'faker.vehicle.bicycle()',
-
   },
   processors: [
     'joiner',
@@ -201,13 +199,7 @@ export default {
     'joinerHash',
     'append',
     'prepend',
-    'randomNumber',
-    'emailDomain',
-    'year',
-    'randomItem',
-    'randomItemNMax',
-    'randomItemN',
-    'slugify'
+    'slugify',
   ],
   providersWithParams: {
     zipCodeByState: 'faker.address.zipCodeByState',
@@ -234,5 +226,13 @@ export default {
     lines:'faker.lorem.lines',
     //phone
     phoneNumberFormat:'faker.phone.phoneNumberFormat',
+    //image
+    unsplash:'unsplash',
+    randomNumber:'randomNumber',
+    emailDomain:'emailDomain',
+    year:'year',
+    randomItem:'randomItem',
+    randomItemNMax:'randomItemNMax',
+    randomItemN:'randomItemN',
   }
 }

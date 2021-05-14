@@ -46,7 +46,6 @@ function genereateData (schema, providers) {
 
 function getProviderCallback (seeder, providers) {
   let provider
-
   if (
     providers.providers[seeder] == undefined &&
     providers.processors.includes(seeder) == false &&
@@ -118,7 +117,7 @@ function append (tempData, ...params) {
   return tempData[params[1]] + params[0]
 }
 
-function randomNumber (tempData, min = 0, max = 100) {
+function randomNumber (min = 0, max = 100) {
   min = parseInt(min)
   max = parseInt(max)
   let n = faker.datatype.number(max)
@@ -129,33 +128,33 @@ function randomNumber (tempData, min = 0, max = 100) {
 }
 
 //this will return one random item from the list
-function randomItem (tempData, ...params) {
+function randomItem (...params) {
   return faker.helpers.randomize(params)
 }
 
 //this will return N number of items from the list, number of items varies from 0 to N
-function randomItemNMax (tempData, n, ...params) {
+function randomItemNMax (n, ...params) {
   const length = randomNumber(tempData, 1, n)
   params = faker.helpers.shuffle(params)
   return params.splice(0, length)
 }
 
 //this will return exactly N number of items from the list
-function randomItemN (tempData, n, ...params) {
+function randomItemN (n, ...params) {
   const length = n
   params = faker.helpers.shuffle(params)
   return params.splice(0, length)
 }
 
-function year (tempData, min = 1900, max = 2200) {
+function year (min = 1900, max = 2200) {
   return randomNumber(tempData, min, max)
 }
 
 function slugify (tempData, item) {
-  return faker.helpers.slugify(tempData[item])
+  return faker.helpers.slugify(tempData[item].toLowerCase())
 }
 
-function emailDomain (tempData, domain = 'example.com') {
+function emailDomain (domain = 'example.com') {
   return faker.internet.email('', '', domain)
 }
 
@@ -163,4 +162,9 @@ function fakerProxy (provider, ...params) {
   params = processArgs(params)
   const fn = `${provider}(${params.join(',')})`
   return eval(fn)
+}
+
+function unsplash (w = 800, h = 600, keyword = 'smile') {
+  const url = `https://source.unsplash.com/random/${w}x${h}?${keyword}`
+  return url;
 }
