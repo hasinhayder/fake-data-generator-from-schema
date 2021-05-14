@@ -3,3 +3,4 @@ yarn.lock
 output.json
 test.mjs
 output.json
+.DS_Store
