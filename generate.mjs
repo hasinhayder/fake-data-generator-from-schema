@@ -47,16 +47,16 @@ function genereateData (schema, providers) {
 function getProviderCallback (seeder, providers) {
   let provider
   if (
-    providers.providers[seeder] == undefined &&
-    providers.processors.includes(seeder) == false &&
-    providers.providersWithParams[seeder] == undefined
+    undefined == providers.providers[seeder] &&
+    false == providers.processors.includes(seeder) &&
+    undefined == providers.providersWithParams[seeder]
   ) {
     provider = `staticData`
-  } else if (providers.providers[seeder] != undefined) {
+  } else if (undefined != providers.providers[seeder]) {
     provider = `${providers.providers[seeder]}`
-  } else if (providers.processors.includes(seeder) != false) {
+  } else if (false != providers.processors.includes(seeder)) {
     provider = seeder
-  } else if (providers.providersWithParams[seeder] != undefined) {
+  } else if (undefined != providers.providersWithParams[seeder] ) {
     provider = 'fakerProxy'
   }
   return provider
@@ -69,12 +69,12 @@ function callFunction (seeder, providers, tempData) {
   const provider = getProviderCallback(_provider, providers)
 
   args = processArgs(args)
-  if (providers.processors.indexOf(provider) !== -1) {
+  if (-1 !== providers.processors.indexOf(provider)) {
     fn = `${provider}(tempData,${args.join(',')})`
   } else if ('fakerProxy' == provider) {
     const fakerProvider = providers.providersWithParams[_provider]
     fn = `fakerProxy('${fakerProvider}',${args.join(',')})`
-  }else if ('staticData' == provider) {
+  } else if ('staticData' == provider) {
     fn = `staticData('${_provider}')`
   } else {
     fn = providers.providers[seeder]
@@ -136,7 +136,7 @@ function randomItem (...params) {
 
 //this will return N number of items from the list, number of items varies from 0 to N
 function randomItemNMax (n, ...params) {
-  const length = randomNumber( 1, n)
+  const length = randomNumber(1, n)
   params = faker.helpers.shuffle(params)
   return params.splice(0, length)
 }
@@ -170,11 +170,10 @@ function fakerProxy (provider, ...params) {
   return eval(fn)
 }
 
-function staticData(data){
-  return data;
+function staticData (data) {
+  return data
 }
 
 function unsplash (w = 800, h = 600, keyword = 'smile') {
-  const url = `https://source.unsplash.com/random/${w}x${h}?${keyword}`
-  return url
+  return `https://source.unsplash.com/random/${w}x${h}?${keyword}`
 }
