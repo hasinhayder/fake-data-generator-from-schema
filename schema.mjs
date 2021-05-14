@@ -8,5 +8,6 @@ export default {
     jobTitle:"jobTitle",
     company:"companyName",
     testimonial:"sentence,100",
+    age:"randomNumber,21,35",
   }
 }
