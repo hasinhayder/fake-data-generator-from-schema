@@ -51,7 +51,7 @@ function getProviderCallback (seeder, providers) {
     providers.processors.includes(seeder) == false &&
     providers.providersWithParams[seeder] == undefined
   ) {
-    provider = `faker.${seeder}`
+    provider = `staticData`
   } else if (providers.providers[seeder] != undefined) {
     provider = `${providers.providers[seeder]}`
   } else if (providers.processors.includes(seeder) != false) {
@@ -74,6 +74,8 @@ function callFunction (seeder, providers, tempData) {
   } else if ('fakerProxy' == provider) {
     const fakerProvider = providers.providersWithParams[_provider]
     fn = `fakerProxy('${fakerProvider}',${args.join(',')})`
+  }else if ('staticData' == provider) {
+    fn = `staticData('${_provider}')`
   } else {
     fn = providers.providers[seeder]
   }
@@ -134,7 +136,7 @@ function randomItem (...params) {
 
 //this will return N number of items from the list, number of items varies from 0 to N
 function randomItemNMax (n, ...params) {
-  const length = randomNumber(tempData, 1, n)
+  const length = randomNumber( 1, n)
   params = faker.helpers.shuffle(params)
   return params.splice(0, length)
 }
@@ -147,7 +149,7 @@ function randomItemN (n, ...params) {
 }
 
 function year (min = 1900, max = 2200) {
-  return randomNumber(tempData, min, max)
+  return randomNumber(min, max)
 }
 
 function slugify (tempData, item) {
@@ -166,6 +168,10 @@ function fakerProxy (provider, ...params) {
   params = processArgs(params)
   const fn = `${provider}(${params.join(',')})`
   return eval(fn)
+}
+
+function staticData(data){
+  return data;
 }
 
 function unsplash (w = 800, h = 600, keyword = 'smile') {
