@@ -56,7 +56,7 @@ function getProviderCallback (seeder, providers) {
     provider = `${providers.providers[seeder]}`
   } else if (false != providers.processors.includes(seeder)) {
     provider = seeder
-  } else if (undefined != providers.providersWithParams[seeder] ) {
+  } else if (undefined != providers.providersWithParams[seeder]) {
     provider = 'fakerProxy'
   }
   return provider
@@ -123,9 +123,10 @@ function randomNumber (min = 0, max = 100) {
   min = parseInt(min)
   max = parseInt(max)
   let n = faker.datatype.number(max)
-  if (n < min) {
-    n += max - min
+  while (n < min) {
+    n = faker.datatype.number(max)
   }
+  console.log(min, n)
   return n
 }
 
