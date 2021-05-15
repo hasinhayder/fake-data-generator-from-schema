@@ -126,7 +126,6 @@ function randomNumber (min = 0, max = 100) {
   while (n < min) {
     n = faker.datatype.number(max)
   }
-  console.log(min, n)
   return n
 }
 
