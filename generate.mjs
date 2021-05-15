@@ -2,6 +2,7 @@ import { writeFileSync } from 'fs'
 import faker from 'faker'
 import providers from './providers.mjs'
 import schema from './schema.mjs'
+const autoIncrements = [];
 
 const generatedData = genereateData(schema, providers)
 if (schema.output) {
@@ -12,6 +13,8 @@ if (schema.output) {
 
 function genereateData (schema, providers) {
   let generatedData = []
+  const loopId = `H2${parseInt(Math.random()*1000000)}-${parseInt(Math.random()*1000000)}`;
+  autoIncrements[loopId] = autoIncrements[loopId]??0;
   const limit = schema.limit ?? 10
   const total =
     'random' == schema.total
@@ -19,12 +22,17 @@ function genereateData (schema, providers) {
       : schema.total ?? 1
   for (let j = 0; j < total; j++) {
     const tempData = {}
+    autoIncrements[loopId]++;
     for (const i in schema.structure) {
       if ('object' == typeof schema.structure[i]) {
         //generate nested data
         tempData[i] = genereateData(schema.structure[i], providers)
       } else {
-        tempData[i] = callFunction(schema.structure[i], providers, tempData)
+        if ('autoIncrement' == schema.structure[i]) {
+          tempData[i] = autoIncrements[loopId]
+        } else {
+          tempData[i] = callFunction(schema.structure[i], providers, tempData)
+        }
       }
     }
 
