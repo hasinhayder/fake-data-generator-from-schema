@@ -1,12 +1,11 @@
 export default {
-  // total:'random',
+  // random 20 people with autoincrement 
   output:'./output.json',
   total:20,
-  skips:['domain'],
   structure:{
     id:'autoIncrement',
     firstName: 'maleFirstName',
-    firstName: 'maleLastName',
+    lastName: 'maleLastName',
     email:'emailFromDomain,firstName,lastName,test.com',
     fullName:'joinerSpace,firstName,lastName',
   }
