@@ -1,9 +1,10 @@
 export default {
   // total:'random',
   output:'./output.json',
-  total:'10',
+  total:20,
   skips:['domain'],
   structure:{
+    id:'autoIncrement',
     firstName: 'maleFirstName',
     lastName: 'maleLastName',
     age:'randomNumber,1,100',
@@ -31,6 +32,7 @@ export default {
       limit:3,
       // total:1,
       structure:{
+        id:'autoIncrement',
         firstName:'firstName',
         lastName:'lastName',
         domain:'domain',

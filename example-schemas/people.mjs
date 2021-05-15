@@ -1,5 +1,4 @@
 export default {
-  // total:'random',
   output:'./output.json',
   total:20,
   skips:['domain'],
