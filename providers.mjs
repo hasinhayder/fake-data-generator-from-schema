@@ -200,6 +200,7 @@ export default {
     'append',
     'prepend',
     'slugify',
+    'emailFromDomain',
     'emailFromNameAndDomain'
   ],
   providersWithParams: {
@@ -231,6 +232,7 @@ export default {
     unsplash:'unsplash',
     randomNumber:'randomNumber',
     emailDomain:'emailDomain',
+    emailFromDomain:'emailDomain',
     year:'year',
     randomItem:'randomItem',
     randomItemNMax:'randomItemNMax',

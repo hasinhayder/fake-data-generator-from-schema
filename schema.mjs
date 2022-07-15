@@ -6,7 +6,7 @@ export default {
     id:'autoIncrement',
     firstName: 'maleFirstName',
     lastName: 'maleLastName',
-    email:'emailFromDomain,firstName,lastName,test.com',
+    email:'emailFromNameAndDomain,firstName,lastName,test.com',
     fullName:'joinerSpace,firstName,lastName',
   }
 }

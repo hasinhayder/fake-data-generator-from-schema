@@ -168,6 +168,10 @@ function emailDomain (domain = 'example.com') {
   return faker.internet.email('', '', domain).toLowerCase()
 }
 
+function emailFromDomain (domain = 'example.com') {
+  return faker.internet.email('', '', domain).toLowerCase()
+}
+
 function emailFromNameAndDomain (tempData, fn, ln, domain = 'example.com') {
   return faker.internet.email(tempData[fn], tempData[ln], domain).toLowerCase()
 }
