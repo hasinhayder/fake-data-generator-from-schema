@@ -1,7 +1,7 @@
 export default {
   // random 20 people with autoincrement 
   output:'./output.json',
-  total:7,
+  total:20,
   structure:{
     id:'autoIncrement',
     cid:'uuid',
