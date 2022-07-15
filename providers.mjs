@@ -201,7 +201,8 @@ export default {
     'prepend',
     'slugify',
     'emailFromDomain',
-    'emailFromNameAndDomain'
+    'emailFromNameAndDomain',
+    'timeMinuteSecond'
   ],
   providersWithParams: {
     zipCodeByState: 'faker.address.zipCodeByState',
